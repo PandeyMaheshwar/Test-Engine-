@@ -1,0 +1,28 @@
+CREATE TABLE users(userid TEXT,password TEXT);
+INSERT INTO users valuea();
+select* from users;
+\d+users;
+
+//JDBC
+Java database connectivity
+
+DAO-Data Access Object 
+type- IV driver
+jdbc is an api, this API talk to the database.
+java.sql.*
+
+All are interfaces
+Connection-DB connect
+Prepared statement-Make query
+ResultSet-Get the query result
+
+Driver (jar) contain the classes who actually implements the JDBC Interfaces. As a developer we never use driver(jar)
+classes, We use JDBC interfaces.
+
+JDBC has a One class DRIVERMANAGER(Class).It is used to get the DB connection.
+
+
+
+
+
+
